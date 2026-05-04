@@ -576,8 +576,8 @@ export const init = (
   document.addEventListener("mousemove", (e) => {
     const centerX = window.innerWidth / 2
     const centerY = window.innerHeight / 2
-    const mouseX = event.clientX
-    const mouseY = event.clientY
+    const mouseX = e.clientX
+    const mouseY = e.clientY
 
     const deltaX = mouseX - centerX
     const deltaY = mouseY - centerY
